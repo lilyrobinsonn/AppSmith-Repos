@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": ""
+        "url": "web:4000/t/therapist"
       },
       "invalids": [],
       "messages": [],
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-16T21:35:45Z"
+    "createdAt": "2024-04-16T23:15:17Z"
   },
   "id": "Page1_Api1",
   "deleted": false,
-  "gitSyncId": "661eee9c9970f63e02639714_661eef319970f63e0263971a"
+  "gitSyncId": "661ef5bc9970f63e0263971f_661f0685566364391a871213"
 }
