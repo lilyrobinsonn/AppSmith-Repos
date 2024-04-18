@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Page3",
+      "id": "Intro Page",
       "isDefault": false
     },
     {
@@ -10,6 +10,10 @@
     },
     {
       "id": "Page2",
+      "isDefault": false
+    },
+    {
+      "id": "Page4",
       "isDefault": false
     }
   ],
