@@ -26,7 +26,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{ \"firstName\": \"John\",\n  \"lastName\": \"smith\",\n  \"email\": \"fakemail@gmail.com\",\n  \"therapistId\": 123\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
