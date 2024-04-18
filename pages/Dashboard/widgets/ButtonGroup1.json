@@ -10,17 +10,25 @@
         "click",
         "submit"
     ],
-    "topRow": 57,
-    "bottomRow": 64,
+    "topRow": 44,
+    "bottomRow": 51,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButton1": {
-            "buttonType": "MENU",
+            "onClick": "{{navigateTo('Settings', {}, 'SAME_WINDOW');}}",
+            "buttonType": "SIMPLE",
             "iconName": "settings",
             "buttonColor": "#f4f4f5",
             "widgetId": "",
-            "menuItems": {},
+            "menuItems": {"menuItemctt1ikvgpv": {
+                "widgetId": "j3ejo3gyvs",
+                "index": 0,
+                "id": "menuItemctt1ikvgpv",
+                "label": "Menu Item 1",
+                "isDisabled": false,
+                "isVisible": true
+            }},
             "index": 0,
             "label": "Settings",
             "id": "groupButton1",
@@ -46,7 +54,7 @@
     "mobileRightColumn": 45,
     "animateLoading": true,
     "parentColumnSpace": 4.09375,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [{"key": "groupButtons.groupButton1.onClick"}],
     "leftColumn": 3,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "key": "aurxn7tosy",
@@ -64,7 +72,9 @@
     "mobileTopRow": 46,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
+    "originalTopRow": 47,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 21,
+    "originalBottomRow": 54,
     "buttonVariant": "PRIMARY"
 }
