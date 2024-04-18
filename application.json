@@ -1,12 +1,20 @@
 {
   "pages": [
     {
-      "id": "Make user",
+      "id": "New User Registration",
+      "isDefault": false
+    },
+    {
+      "id": "Registration Page",
+      "isDefault": true
+    },
+    {
+      "id": "Therapist Registration",
       "isDefault": false
     },
     {
       "id": "Page1",
-      "isDefault": true
+      "isDefault": false
     }
   ],
   "viewMode": false,

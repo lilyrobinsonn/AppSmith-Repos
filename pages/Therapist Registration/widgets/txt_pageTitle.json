@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 1,
-    "bottomRow": 7,
+    "bottomRow": 10,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -28,7 +28,7 @@
     "shouldTruncate": false,
     "borderWidth": "4\n\n",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Register User",
+    "text": "Register as Therapist",
     "key": "ph5glqkph7",
     "isDeprecated": false,
     "rightColumn": 63,
@@ -50,7 +50,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 14,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 5,
+    "originalBottomRow": 10,
     "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }

@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Make user",
-    "slug": "make-user",
+    "name": "New User Registration",
+    "slug": "new-user-registration",
     "layouts": [
       {
         "viewMode": false,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Make user_Get_Users",
+              "id": "New User Registration_Get_Users",
               "name": "Get_Users",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Make user",
+        "id": "New User Registration",
         "deleted": false,
         "policies": [],
         "userPermissions": []
