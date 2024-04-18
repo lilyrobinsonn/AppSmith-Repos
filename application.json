@@ -1,32 +1,65 @@
 {
   "pages": [
     {
-      "id": "Intro Page",
+      "id": "Displaying Goals",
       "isDefault": false
     },
     {
-      "id": "Page1",
+      "id": "Profile",
+      "isDefault": false
+    },
+    {
+      "id": "New User Registration",
+      "isDefault": false
+    },
+    {
+      "id": "Registration Page",
       "isDefault": true
     },
     {
-      "id": "Page2",
+      "id": "Therapist Registration",
       "isDefault": false
     },
     {
-      "id": "Page4",
+      "id": "Dashboard",
       "isDefault": false
+    },
+    {
+      "id": "Settings",
+      "isDefault": false
+    },
+    {
+      "id": "Make new goal",
+      "isDefault": false
+    },
+    {
+      "id": "Subscription",
+      "isDefault": false
+    },
+    {
+      "id": "Friend List",
+      "isDefault": false
+    },
+    {
+      "id": "Journal",
+      "isDefault": false
+    },
+    {
+      "id": "Journal Entry",
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#C7F3F0",
+
   "unpublishedAppLayout": {
     "type": "DESKTOP"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"
   },
+
   "unpublishedCustomJSLibs": [
     {
       "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
