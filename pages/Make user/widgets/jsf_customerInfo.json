@@ -1,15 +1,13 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "boxShadow": "0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)",
     "borderColor": "#1e3a8a",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
     "onSubmit": "{{Insert_to_Users.run()}}",
-    "topRow": 6,
+    "topRow": 7,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 39,
+    "leftColumn": 2,
     "dynamicBindingPathList": [
-        {"key": "boxShadow"},
-        {"key": "resetButtonStyles.borderRadius"},
         {"key": "schema.__root_schema__.children.email.defaultValue"},
         {"key": "schema.__root_schema__.children.email.accentColor"},
         {"key": "schema.__root_schema__.children.email.borderRadius"},
@@ -38,9 +36,10 @@
     "autoGenerateForm": true,
     "resetButtonStyles": {
         "boxShadow": "none",
-        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+        "borderRadius": "1.5rem",
         "buttonColor": "#ef4444",
-        "buttonVariant": "SECONDARY"
+        "buttonVariant": "SECONDARY",
+        "placement": "CENTER"
     },
     "isVisible": true,
     "version": 1,
@@ -129,6 +128,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "1.5rem",
+    "originalBottomRow": 67,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -302,11 +302,12 @@
         "boxShadow": "none",
         "borderRadius": "1.5rem",
         "buttonColor": "#dcfce7",
-        "buttonVariant": "PRIMARY"
+        "buttonVariant": "PRIMARY",
+        "placement": "CENTER"
     },
     "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
-    "bottomRow": 67,
+    "bottomRow": 61,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Register",
@@ -328,7 +329,8 @@
     "mobileTopRow": 65,
     "scrollContents": false,
     "responsiveBehavior": "fill",
-    "fixedFooter": true,
+    "fixedFooter": false,
+    "originalTopRow": 6,
     "mobileLeftColumn": 38,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

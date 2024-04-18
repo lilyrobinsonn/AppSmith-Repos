@@ -1,6 +1,7 @@
 {
     "mobileBottomRow": 5,
     "widgetName": "txt_pageTitle",
+    "borderColor": "#dcfce7",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.c3b6033f570046f8c6288d911333a827.svg",
     "searchTags": [
@@ -9,29 +10,30 @@
         "label"
     ],
     "topRow": 1,
-    "bottomRow": 5,
+    "bottomRow": 7,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 30,
     "animateLoading": true,
     "overflow": "NONE",
-    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "fontFamily": "Poppins",
     "parentColumnSpace": 6.42333984375,
     "dynamicTriggerPathList": [],
     "leftColumn": 1,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
-        {"key": "borderRadius"},
-        {"key": "fontFamily"}
+        {"key": "borderRadius"}
     ],
     "shouldTruncate": false,
+    "borderWidth": "4\n\n",
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Customer Information",
+    "text": "Register User",
     "key": "ph5glqkph7",
     "isDeprecated": false,
     "rightColumn": 63,
-    "textAlign": "LEFT",
+    "backgroundColor": "#dcfce7",
+    "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "ly7v1xz90r",
     "minWidth": 450,
@@ -49,6 +51,6 @@
     "mobileLeftColumn": 14,
     "maxDynamicHeight": 9000,
     "originalBottomRow": 5,
-    "fontSize": "1.25rem",
+    "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }
