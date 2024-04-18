@@ -10,7 +10,7 @@
         "label"
     ],
     "topRow": 16,
-    "bottomRow": 22,
+    "bottomRow": 20,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
