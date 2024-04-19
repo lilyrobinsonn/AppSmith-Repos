@@ -1,5 +1,0 @@
-{ "firstName": "John",
-  "lastName": "smith",
-  "email": "fakemail@gmail.com",
-  "therapistId": 123
-}
