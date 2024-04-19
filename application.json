@@ -14,7 +14,7 @@
     },
     {
       "id": "Registration Page",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Therapist Registration",
@@ -50,7 +50,7 @@
     },
     {
       "id": "First page- New or Returning ",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Therapist Page",
