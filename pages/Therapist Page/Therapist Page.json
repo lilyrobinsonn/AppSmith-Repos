@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 590,
+          "bottomRow": 610,
           "containerStyle": "none",
           "snapRows": 76,
           "parentRowSpace": 1,
@@ -25,30 +25,7 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Therapist Page_Get_therapists_users",
-              "name": "Get_therapists_users",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Therapist_ID_Input.text"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Therapist Page_Therapist_info",
-              "name": "Therapist_info",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "Therapist_ID_Input.text"
-              ],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Therapist Page",

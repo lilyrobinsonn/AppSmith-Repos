@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 23,
-    "bottomRow": 27,
+    "topRow": 22,
+    "bottomRow": 26,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -18,9 +18,9 @@
     "animateLoading": true,
     "overflow": "NONE",
     "fontFamily": "Nunito Sans",
-    "parentColumnSpace": 16.96875,
+    "parentColumnSpace": 15.11279296875,
     "dynamicTriggerPathList": [],
-    "leftColumn": 39,
+    "leftColumn": 42.666666666666664,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "borderRadius"}
@@ -30,16 +30,16 @@
     "text": "Therapist Options:",
     "key": "42hisd4kn1",
     "isDeprecated": false,
-    "rightColumn": 55,
+    "rightColumn": 60.63157894736842,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "alzwtage0r",
+    "widgetId": "wpv6rhakoe",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "#231F20",
     "version": 1,
-    "parentId": "0",
+    "parentId": "ge6ja6ay0w",
     "tags": [
         "Suggested",
         "Content"
@@ -48,11 +48,11 @@
     "isLoading": false,
     "mobileTopRow": 24,
     "responsiveBehavior": "fill",
-    "originalTopRow": 23,
+    "originalTopRow": 22,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 42,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 27,
+    "originalBottomRow": 26,
     "fontSize": "1.25rem",
     "minDynamicHeight": 4
 }
