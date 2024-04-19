@@ -1,0 +1,8 @@
+{
+	"meetingId" : "{{MeetingId.text}}",
+  "timestamp": "{{ MeetingDatetime.formattedDate }}", 
+  "topic": "{{ MeetingTopic.text }}",
+  "isVirtual": {{ isVirtualCheckbox.isChecked }}, 
+  "therapistId": "{{ Therapist_ID_Input.text }}", 
+  "userId": "{{ MeetingUserId.text }}" 
+}

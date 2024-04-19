@@ -15,19 +15,18 @@
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
-        "groupButtona5kl6pw9kr": {
+        "groupButtonauhtz7c58c": {
             "itemType": "BUTTON",
-            "onClick": "{{navigateTo('Therapist Registration', {}, 'SAME_WINDOW');}}",
-            "buttonColor": "#15803d",
-            "widgetId": "glei2kh4p6",
-            "menuItems": {},
-            "index": 2,
-            "label": "New Therapist",
-            "isVisible": true,
             "buttonType": "SIMPLE",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "d6x301q4wo",
             "buttonVariant": "filled",
-            "id": "groupButtona5kl6pw9kr",
+            "menuItems": {},
+            "index": 1,
+            "id": "groupButtonauhtz7c58c",
+            "label": "Returning Independent User",
             "isDisabled": false,
+            "isVisible": true,
             "placement": "CENTER"
         },
         "groupButton3": {
@@ -71,22 +70,9 @@
                     "isDisabled": false
                 }
             },
-            "index": 1,
-            "label": "Returning User",
-            "id": "groupButton3",
-            "placement": "CENTER",
-            "isVisible": true,
-            "isDisabled": false
-        },
-        "groupButton2": {
-            "buttonType": "SIMPLE",
-            "buttonColor": "#ef4444",
-            "widgetId": "",
-            "menuItems": {},
             "index": 0,
-            "iconAlign": "right",
-            "label": "New User",
-            "id": "groupButton2",
+            "label": "Returning User w/Therapist",
+            "id": "groupButton3",
             "placement": "CENTER",
             "isVisible": true,
             "isDisabled": false
@@ -97,7 +83,7 @@
             "buttonColor": "#14532d",
             "widgetId": "qz2rb5jppg",
             "menuItems": {},
-            "index": 3,
+            "index": 2,
             "label": "Returning Therapist",
             "isVisible": true,
             "buttonType": "SIMPLE",
@@ -113,11 +99,13 @@
     "parentColumnSpace": 21.171875,
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton3.onClick"},
-        {"key": "groupButtons.groupButtona5kl6pw9kr.onClick"},
         {"key": "groupButtons.groupButton1qkaqjfhjj.onClick"}
     ],
     "leftColumn": 10,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "groupButtons.groupButtonauhtz7c58c.buttonColor"}
+    ],
     "key": "5v79z51vrm",
     "orientation": "horizontal",
     "isDeprecated": false,

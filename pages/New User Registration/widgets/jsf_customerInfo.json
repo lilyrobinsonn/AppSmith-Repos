@@ -24,8 +24,7 @@
         {"key": "schema.__root_schema__.children.therapistId.borderRadius"},
         {"key": "schema.__root_schema__.children.userId.defaultValue"},
         {"key": "schema.__root_schema__.children.userId.accentColor"},
-        {"key": "schema.__root_schema__.children.userId.borderRadius"},
-        {"key": "sourceData"}
+        {"key": "schema.__root_schema__.children.userId.borderRadius"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -300,7 +299,7 @@
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
-    "sourceData": "{{Get_Users.data}}",
+    "sourceData": "",
     "resetButtonLabel": "Clear",
     "key": "95lb1qvhqk",
     "backgroundColor": "#dbeafe",

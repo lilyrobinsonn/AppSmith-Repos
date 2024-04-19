@@ -1,5 +1,5 @@
-{ "firstName": "John",
-  "lastName": "smith",
-  "email": "fakemail@gmail.com",
-  "therapistId": 123
+{ "firstName": {{jsf_customerInfo.fieldState.firstName}},
+  "lastName": {{jsf_customerInfo.fieldState.lastName}},
+  "email": {{jsf_customerInfo.fieldState.email}},
+  "therapistId": {{jsf_customerInfo.fieldState.therapistId}}
 }

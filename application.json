@@ -10,11 +10,11 @@
     },
     {
       "id": "New User Registration",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Registration Page",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Therapist Registration",
@@ -50,6 +50,10 @@
     },
     {
       "id": "First page- New or Returning ",
+      "isDefault": false
+    },
+    {
+      "id": "Therapist Page",
       "isDefault": false
     }
   ],
