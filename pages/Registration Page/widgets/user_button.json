@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 27,
     "widgetName": "user_button",
-    "onClick": "{{navigateTo('1 New User', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo('New User Registration', {}, 'SAME_WINDOW');}}",
     "buttonColor": "#dbeafe",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -41,11 +41,11 @@
     "isLoading": false,
     "mobileTopRow": 23,
     "responsiveBehavior": "hug",
-    "originalTopRow": 24,
+    "originalTopRow": 22,
     "disabledWhenInvalid": false,
     "borderRadius": "1.5rem",
     "mobileLeftColumn": 24,
-    "originalBottomRow": 28,
+    "originalBottomRow": 26,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }
