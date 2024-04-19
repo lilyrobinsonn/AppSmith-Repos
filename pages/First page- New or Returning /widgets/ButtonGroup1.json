@@ -17,20 +17,22 @@
     "groupButtons": {
         "groupButtona5kl6pw9kr": {
             "itemType": "BUTTON",
-            "buttonType": "SIMPLE",
+            "onClick": "{{navigateTo('Therapist Registration', {}, 'SAME_WINDOW');}}",
             "buttonColor": "#15803d",
             "widgetId": "glei2kh4p6",
-            "buttonVariant": "filled",
             "menuItems": {},
             "index": 2,
-            "id": "groupButtona5kl6pw9kr",
             "label": "New Therapist",
-            "isDisabled": false,
             "isVisible": true,
+            "buttonType": "SIMPLE",
+            "buttonVariant": "filled",
+            "id": "groupButtona5kl6pw9kr",
+            "isDisabled": false,
             "placement": "CENTER"
         },
         "groupButton3": {
-            "buttonType": "MENU",
+            "onClick": "{{navigateTo('Dashboard', {}, 'SAME_WINDOW');}}",
+            "buttonType": "SIMPLE",
             "buttonColor": "#b91c1c",
             "widgetId": "",
             "menuItems": {
@@ -91,16 +93,17 @@
         },
         "groupButton1qkaqjfhjj": {
             "itemType": "BUTTON",
-            "buttonType": "SIMPLE",
+            "onClick": "{{navigateTo('Profile', {}, 'SAME_WINDOW');}}",
             "buttonColor": "#14532d",
             "widgetId": "qz2rb5jppg",
-            "buttonVariant": "filled",
             "menuItems": {},
             "index": 3,
-            "id": "groupButton1qkaqjfhjj",
             "label": "Returning Therapist",
-            "isDisabled": false,
             "isVisible": true,
+            "buttonType": "SIMPLE",
+            "buttonVariant": "filled",
+            "id": "groupButton1qkaqjfhjj",
+            "isDisabled": false,
             "placement": "CENTER"
         }
     },
@@ -108,7 +111,11 @@
     "mobileRightColumn": 43,
     "animateLoading": true,
     "parentColumnSpace": 21.171875,
-    "dynamicTriggerPathList": [],
+    "dynamicTriggerPathList": [
+        {"key": "groupButtons.groupButton3.onClick"},
+        {"key": "groupButtons.groupButtona5kl6pw9kr.onClick"},
+        {"key": "groupButtons.groupButton1qkaqjfhjj.onClick"}
+    ],
     "leftColumn": 10,
     "dynamicBindingPathList": [{"key": "borderRadius"}],
     "key": "5v79z51vrm",
