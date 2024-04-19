@@ -1,0 +1,6 @@
+{
+    "sugId": "{{SugID.text}}",
+    "description": "{{description.text}}",
+    "therapistId": "{{Input1.text}}",
+    "userId": "{{userid.text}}"
+}

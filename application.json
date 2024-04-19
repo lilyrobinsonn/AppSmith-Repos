@@ -59,6 +59,10 @@
     {
       "id": "Therapist Create Meeting",
       "isDefault": false
+    },
+    {
+      "id": "Therapist Entry Suggest",
+      "isDefault": false
     }
   ],
   "viewMode": false,
