@@ -153,7 +153,7 @@
                 "dataType": "string",
                 "accessor": "therapistId",
                 "isVisible": true,
-                "label": "Therapist Number",
+                "label": "Therapist Number (optional))",
                 "originalIdentifier": "therapistId",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(jsf_customerInfo.sourceData, jsf_customerInfo.formData, jsf_customerInfo.fieldState)}}",
                 "children": {},

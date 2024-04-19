@@ -47,6 +47,10 @@
     {
       "id": "Journal Entry",
       "isDefault": false
+    },
+    {
+      "id": "First page- New or Returning ",
+      "isDefault": false
     }
   ],
   "viewMode": false,
