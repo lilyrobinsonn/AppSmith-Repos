@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 910,
+          "bottomRow": 590,
           "containerStyle": "none",
           "snapRows": 76,
           "parentRowSpace": 1,
@@ -44,16 +44,6 @@
               "pluginType": "API",
               "jsonPathKeys": [
                 "Therapist_ID_Input.text"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Therapist Page_get_new_meeting",
-              "name": "get_new_meeting",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "MeetingId.text"
               ],
               "timeoutInMillisecond": 10000
             }
