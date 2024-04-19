@@ -2,7 +2,7 @@
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.f2c34197dbcf03595098986de898928f.svg",
     "onSubmit": "{{storeValue('userId', \"\");}}",
-    "topRow": 5,
+    "topRow": 7,
     "labelWidth": 5,
     "type": "INPUT_WIDGET_V2",
     "animateLoading": true,
@@ -29,7 +29,7 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "needsErrorInfo": false,
     "mobileBottomRow": 16,
-    "widgetName": "userId",
+    "widgetName": "enterUserId",
     "displayName": "Input",
     "searchTags": [
         "form",
@@ -37,7 +37,7 @@
         "number",
         "textarea"
     ],
-    "bottomRow": 12,
+    "bottomRow": 14,
     "parentRowSpace": 10,
     "autoFocus": false,
     "hideCard": false,

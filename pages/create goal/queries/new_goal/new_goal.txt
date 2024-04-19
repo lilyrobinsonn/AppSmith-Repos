@@ -1,0 +1,5 @@
+{
+	"description": "{{ goalDescription.text }}",
+	"completionStatus": "{{completionSwitch.isSwitchedOn}}",
+	"userId": "{{enterUserId.text}}"
+}
