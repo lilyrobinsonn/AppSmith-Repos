@@ -55,6 +55,10 @@
     {
       "id": "Therapist Page",
       "isDefault": false
+    },
+    {
+      "id": "Therapist Create Meeting",
+      "isDefault": false
     }
   ],
   "viewMode": false,
