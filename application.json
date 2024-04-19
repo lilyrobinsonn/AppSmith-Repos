@@ -10,7 +10,7 @@
     },
     {
       "id": "New User Registration",
-      "isDefault": true
+      "isDefault": false
     },
     {
       "id": "Registration Page",
@@ -50,7 +50,7 @@
     },
     {
       "id": "First page- New or Returning ",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Therapist Page",
@@ -61,6 +61,9 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#C7F3F0",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
   "unpublishedCustomJSLibs": [
     {
       "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"

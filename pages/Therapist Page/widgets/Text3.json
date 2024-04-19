@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 100,
-    "bottomRow": 104,
+    "topRow": 106,
+    "bottomRow": 110,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
