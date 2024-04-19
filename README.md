@@ -1,3 +1,14 @@
+# HELLO-HAPPY AppSmith Application
+**Contributors:** Calli Colvin, Vrinda Rana, Kerissa Duliga, Lily Robinson, Jae Na Wray
+
+## A brief introduction to Hello Happy
+Hello Happy is a journal app that allows users to keep track of their daily activities and habits while keeping their therapist in the loop. Therapists can have administrative control over certain users, granting them access to observe the day-to-day elements that shape a patient's day. Users also have the option to use the app solely as a personal journal, without linking it to a therapist. The app offers input fields for users to log their daily activities, helping them identify patterns in their days. The files in this project repository create our hello-happy database and populate it with fake data.
+
+## Navigating the UI
+- To navigate through our application, the link below under "You can visit the application using the below link"  will take you to AppSmith page! You will be navigated to a page where you can select which type of user you are: _a returning user__, _returning therapist____, or a _new user/therpist_!
+- Follow the steps aand play around to explore Happy Hello. The app will haave many different pages to schedule a therapist meeting, create a new journal entry, check your current progress on your personal goals and more!
+
+**Happy exploring!**
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
 This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
