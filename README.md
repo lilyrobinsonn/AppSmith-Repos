@@ -1,4 +1,4 @@
-# HELLO-HAPPY AppSmith Application
+# HELLO-HAPPY AppSmith UI
 **Contributors:** Calli Colvin, Vrinda Rana, Kerissa Duliga, Lily Robinson, Jae Na Wray
 
 ## A brief introduction to Hello Happy
